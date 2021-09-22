@@ -39,10 +39,10 @@ class ExtensionGenerator extends GeneratorForAnnotation<EnumExtension> {
       }
     }
 
-    if (shouldGenerateValueGetter && !shouldSkipValueGenerator) {
+    if (shouldGenerateValueGetter) {
       final value = _buildMap(element, mapName: valueMapName, typeName: 'JsonValue');
       valueGetterReference = value.item2;
-      if (value.item1 != null) {
+      if (value.item1 != null && !shouldSkipValueGenerator) {
         yield formatter.format(value.item1!.accept(emitter).toString());
       }
     }

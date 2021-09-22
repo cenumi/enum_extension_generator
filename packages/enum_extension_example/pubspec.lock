@@ -170,14 +170,16 @@ packages:
     source: hosted
     version: "2.2.0"
   enum_extension_annotation:
-    dependency: "direct main"
+    dependency: transitive
     description:
-      path: "../enum_extension_annotation"
-      relative: true
-    source: path
+      path: "packages/enum_extension_annotation"
+      ref: HEAD
+      resolved-ref: "0986a8caef7b1e8b06344cb75d62b105e4b22257"
+      url: "https://github.com/cenumi/enum_extension_generator.git"
+    source: git
     version: "0.0.1"
   enum_extension_generator:
-    dependency: "direct dev"
+    dependency: "direct main"
     description:
       path: "../enum_extension_generator"
       relative: true
@@ -501,3 +503,4 @@ packages:
     version: "3.1.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"

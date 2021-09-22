@@ -133,15 +133,13 @@ packages:
       name: dart_style
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "2.1.0"
+    version: "2.2.0"
   enum_extension_annotation:
     dependency: "direct main"
     description:
-      path: "packages/enum_extension_annotation"
-      ref: HEAD
-      resolved-ref: "77676c3018d4ea07c767835a1756e144e206cd43"
-      url: "https://github.com/cenumi/enum_extension_generator.git"
-    source: git
+      path: "../enum_extension_annotation"
+      relative: true
+    source: path
     version: "0.0.1"
   fake_async:
     dependency: transitive

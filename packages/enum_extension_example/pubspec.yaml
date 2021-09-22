@@ -35,20 +35,25 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
 
-  enum_extension_annotation:
-    git:
-      url: https://github.com/cenumi/enum_extension_generator
-      path: packages/enum_extension_annotation
+  # enum_extension_annotation:
+  #   git:
+  #     url: https://github.com/cenumi/enum_extension_generator.git
+  #     path: packages/enum_extension_annotation
 
+  enum_extension_generator:
+    path: ../enum_extension_generator
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   
-  enum_extension_generator:
-    git:
-      url: https://github.com/cenumi/enum_extension_generator
-      path: packages/enum_extension_generator
+  # enum_extension_generator:
+  #   git:
+  #     url: https://github.com/cenumi/enum_extension_generator.git
+  #     path: packages/enum_extension_generator
+
+  
+
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

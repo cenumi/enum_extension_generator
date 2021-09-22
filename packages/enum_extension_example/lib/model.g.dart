@@ -14,7 +14,7 @@ const _$ExampleEnumDescMap = {
 };
 
 extension ExampleExt on Example {
-  get value => _$ExampleEnumMap[this]!;
+  String get value => _$ExampleEnumMap[this]!;
   Object get desc => _$ExampleEnumDescMap[this]!;
 }
 
