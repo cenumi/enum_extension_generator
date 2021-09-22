@@ -20,4 +20,8 @@ class A {
   final Example example;
 
   A(this.b, this.example);
+
+  factory A.fromJson(Map<String, dynamic> json) => _$AFromJson(json);
+
+  Map<String, dynamic> toJson() => _$AToJson(this);
 }

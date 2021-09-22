@@ -36,7 +36,9 @@ dependencies:
   cupertino_icons: ^1.0.2
 
   enum_extension_annotation:
-    path: ../enum_extension_annotation
+    git:
+      url: https://github.com/cenumi/enum_extension_generator
+      path: packages/enum_extension_annotation
 
 
 dev_dependencies:
@@ -44,7 +46,9 @@ dev_dependencies:
     sdk: flutter
   
   enum_extension_generator:
-    path: ../enum_extension_generator
+    git:
+      url: https://github.com/cenumi/enum_extension_generator
+      path: packages/enum_extension_generator
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

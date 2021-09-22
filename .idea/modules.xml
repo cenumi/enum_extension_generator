@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/packages/enum_extension_annotation/melos_enum_extension_annotation.iml" filepath="$PROJECT_DIR$/packages/enum_extension_annotation/melos_enum_extension_annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/enum_extension_example/melos_enum_extension_example.iml" filepath="$PROJECT_DIR$/packages/enum_extension_example/melos_enum_extension_example.iml" />
+      <module fileurl="file://$PROJECT_DIR$/packages/enum_extension_generator/melos_enum_extension_generator.iml" filepath="$PROJECT_DIR$/packages/enum_extension_generator/melos_enum_extension_generator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/melos_enum_extension_generator.iml" filepath="$PROJECT_DIR$/melos_enum_extension_generator.iml" />
+    </modules>
+  </component>
+</project>
