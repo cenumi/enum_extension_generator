@@ -6,6 +6,24 @@ an enum helper extension method generator that compatible with JsonSerializable 
 - a desc map
 - an extension
 
+## Usage
+
+```yaml
+dependencies:
+  enum_extension_annotation:
+    git:
+      url: https://github.com/cenumi/enum_extension_generator.git
+      path: packages/enum_extension_annotation
+
+dev_dependencies:
+  enum_extension_generator:
+    git:
+      url: https://github.com/cenumi/enum_extension_generator.git
+      path: packages/enum_extension_generator
+```
+
+## Details
+
 Consider:
 
 ```dart
