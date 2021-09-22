@@ -1,6 +1,6 @@
 name: enum_extension_generator
 description: enum helper extension generator for dart
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/cenumi/enum_extension_generator
 publish_to: none
 
