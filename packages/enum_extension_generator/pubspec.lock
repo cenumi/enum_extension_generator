@@ -137,9 +137,11 @@ packages:
   enum_extension_annotation:
     dependency: "direct main"
     description:
-      path: "../enum_extension_annotation"
-      relative: true
-    source: path
+      path: "packages/enum_extension_annotation"
+      ref: HEAD
+      resolved-ref: "77676c3018d4ea07c767835a1756e144e206cd43"
+      url: "https://github.com/cenumi/enum_extension_generator.git"
+    source: git
     version: "0.0.1"
   fake_async:
     dependency: transitive

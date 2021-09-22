@@ -14,7 +14,7 @@ dependencies:
   
   enum_extension_annotation:
     git:
-      url: https://github.com/cenumi/enum_extension_generator
+      url: https://github.com/cenumi/enum_extension_generator.git
       path: packages/enum_extension_annotation
 
   source_gen: ^1.1.0
