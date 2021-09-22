@@ -1,6 +1,6 @@
 # Enum Extension Generator
 
-a enum helper extension method generator that compatible with JsonSerialible generates:
+a enum helper extension method generator that compatible with JsonSerializable generates:
 
 - a value map
 - a desc map
@@ -31,8 +31,11 @@ class A {
   final Example example;
 
   A(this.b, this.example);
-}
 
+  factory A.fromJson(Map<String, dynamic> json) => _$AFromJson(json);
+
+  Map<String, dynamic> toJson() => _$AToJson(this);
+}
 ```
 
 Generates:
