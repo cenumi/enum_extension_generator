@@ -1,10 +1,10 @@
 # Enum Extension Generator
 
-a enum helper extension method generator that compatible with JsonSerializable generates:
+an enum helper extension method generator that compatible with JsonSerializable generates:
 
 - a value map
 - a desc map
-- a extension
+- an extension
 
 Consider:
 
