@@ -1,0 +1,35 @@
+name: enum_extension_generator
+description: enum helper extension generator for dart
+version: 0.0.1
+homepage: https://github.com/cenumi/enum_extension_generator
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  enum_extension_annotation:
+    git:
+      url: https://github.com/cenumi/enum_extension_generator
+      path: packages/enum_extension_annotation
+
+  source_gen: ^1.1.0
+
+  source_helper: ^1.2.1
+
+  meta: ^1.7.0
+
+  path: ^1.8.0
+  code_builder: ^4.1.0
+  dart_style: ^2.1.0
+  build_config: ^1.0.0
+  tuple: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
