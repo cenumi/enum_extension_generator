@@ -9,7 +9,7 @@ import 'package:collection/collection.dart';
 
 class ExtensionGenerator extends GeneratorForAnnotation<EnumExtension> {
   @override
-  generateForAnnotatedElement(Element element, ConstantReader annotation, BuildStep buildStep) sync* {
+  Iterable<String> generateForAnnotatedElement(Element element, ConstantReader annotation, BuildStep buildStep) sync* {
     if (element is! ClassElement || !element.isEnum) {
       throw InvalidGenerationSourceError('this is not a enum class', element: element);
     }

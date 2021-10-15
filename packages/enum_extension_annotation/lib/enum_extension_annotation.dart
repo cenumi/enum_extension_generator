@@ -1,7 +1,10 @@
 library enum_extension_annotation;
 
+import 'package:meta/meta_meta.dart';
+
 export 'package:json_annotation/json_annotation.dart';
 
+@Target({TargetKind.enumType})
 class EnumExtension {
   const EnumExtension({this.desc = true, this.value = true, this.skipValueMapGeneration = false});
   final bool desc;
